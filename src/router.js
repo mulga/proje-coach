@@ -23,7 +23,7 @@ const router = createRouter({
       children: [{ path: "contact", component: ContactCoach }], // nested route
     },
     {
-      path: "/register/",
+      path: "/register",
       component: CoachRegistration,
     },
     {
