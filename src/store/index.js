@@ -5,6 +5,17 @@ const store = createStore({
   modules: {
     coachesKey: coachesModules,
   },
+
+  state() {
+    return {
+      userId: "c3",
+    };
+  },
+  getters: {
+    userId(state) {
+      return state.userId;
+    },
+  },
 });
 
 export default store;
